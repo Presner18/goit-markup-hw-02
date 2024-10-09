@@ -5,3 +5,18 @@ body {
     margin: 0;
     padding: 0;
 }
+.header-navigation{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
+}
+.logo-item{
+    color: #4D5AE5
+}
+.logo-span{
+    color: #2E2F42;
+}
