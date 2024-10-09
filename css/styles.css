@@ -12,7 +12,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-
+span{
+    color: #2e2f42;
+}
 ul {
     list-style: none;
     padding: 0;
