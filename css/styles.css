@@ -1,58 +1,75 @@
+:root {
+    --second-family: "Raleway", sans-serif;
+    --iris: #4D5AE5;
+    --slate: #434455;
+}
+
 body {
-    font-family: "Roboto", sans-serif;  /* Визначення шрифту для тексту */
-    color: #434455;                    /* Визначення кольору тексту */
-    background-color: #FFFFFF;          /* Визначення кольору фону */
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
-ul{
+
+ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-address{
+
+address {
     font-style: normal;
 }
-button{
+
+button {
     font-family: inherit;
 }
 
-.header-navigation{
-font-family: var(--second-family);
-font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--iris);
+.header-navigation {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
 }
-.logo-item{
-    color: #4D5AE5
+
+.logo-item {
+    color: #4D5AE5;
 }
-.logo-span{
+
+.logo-span {
     color: #2E2F42;
 }
-.header-menu-link{
+
+.header-menu-link {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    
- }
- .header-menu-link:hover,
- .header-menu-link:focus {
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
     color: #404BBF;
- }
- .address-contact-link{
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: var(--slate);
- }
- .address-contact-link:hover,
- .address-contact-link:focus{
+}
+
+.address-contact-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.address-contact-link:hover,
+.address-contact-link:focus {
     color: #404BBF;
- }
+}
