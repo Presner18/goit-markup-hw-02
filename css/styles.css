@@ -17,6 +17,9 @@ address{
 button{
     font-family: inherit;
 }
+span{
+    color:#2e2f42;1
+}
 .header-navigation{
 font-family: var(--second-family);
 font-weight: 700;
