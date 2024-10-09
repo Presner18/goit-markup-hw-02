@@ -177,19 +177,14 @@ button:focus {
     color: var(--slate);
 }
 
-.portfolio {
-    color: #FFFFFF;
-}
-
 .portfolio-page {
-    font-family: var(--font-family);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--dark-slate);
-}
+        font-size: 36px;                  /* Встановлюємо розмір шрифта */
+        line-height: 1.11;                /* Встановлюємо інтерліньяж */
+        text-align: center;               /* Вирівнюємо текст по центру */
+        letter-spacing: 0.02em;           /* Встановлюємо міжлітерний інтервал */
+        text-transform: capitalize;       /* Застосовуємо стиль "capitalize" */
+        color: #2e2f42;                   /* Встановлюємо колір тексту */
+    }
 
 .portfolio-title {
     font-family: var(--font-family);
