@@ -83,13 +83,13 @@ button:focus {
 }
 
 .logo-item {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
+    font-family: "Raleway", sans-serif;  /* Шрифт логотипу */
+    font-weight: 700;                   /* Жирність шрифту */
+    font-size: 18px;                    /* Розмір шрифту */
+    line-height: 1.17;                  /* Простір між рядками */
+    letter-spacing: 0.03em;             /* Відступи між літерами */
+    text-transform: uppercase;          /* Перетворення всіх літер у верхній регістр */
+    color: #4d5ae5;                     /* Колір тексту */
 }
 
 .logo-span {
