@@ -79,3 +79,29 @@ button {
 .address-contact-link:focus {
     color: #404BBF;
 }
+.subtitle{
+font-family: "Roboto", sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.button{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #ffffff;
+background: #4D5AE5;
+}
+.button:hover,
+.button:focus{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #404BBF;
+}
