@@ -1,12 +1,13 @@
 :root {
     --second-family: "Raleway", sans-serif;
+    --font-family: "Roboto", sans-serif;
     --iris: #4D5AE5;
     --slate: #434455;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
+    font-family: var(--font-family);
+    color: var(--slate);
     background-color: #FFFFFF;
 }
 
@@ -25,21 +26,35 @@ address {
 }
 
 button {
-    font-family: inherit;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: var(--iris);
 }
-.subtitle{
-font-family: "Roboto", sans-serif;
-font-size: 56px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 0.02em;
-text-align: center;
-color:  #FFFFFF;;
 
+button:hover,
+button:focus {
+    color: #ffffff;
+    background: #404BBF;
 }
-.section-subtitle{
+
+.subtitle {
+    font-family: var(--font-family);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-subtitle {
     background-color: #2E2F42;
 }
+
 .header-navigation {
     font-family: var(--second-family);
     font-weight: 700;
@@ -51,13 +66,13 @@ color:  #FFFFFF;;
 }
 
 .logo-item {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--iris);
 }
 
 .logo-span {
@@ -65,7 +80,7 @@ color:  #FFFFFF;;
 }
 
 .header-menu-link {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -79,61 +94,16 @@ color:  #FFFFFF;;
 }
 
 .address-contact-link {
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #2E2F42;
-
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
 }
 
 .address-contact-link:hover,
 .address-contact-link:focus {
     color: #404BBF;
-}
-.subtitle{
-font-family: "Roboto", sans-serif;
-font-size: 56px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 0.02em;
-text-align: center;
-}
-.button{
-    font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.04em;
-color: #ffffff;
-background: #4D5AE5;
-}
-.button:hover,
-.button:focus{
-    font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.04em;
-color: #ffffff;
-background: #404BBF;
-}
-.features-subtitle{
-font-family: "Roboto", sans-serif;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-}
-.features-item-text{
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-
 }
