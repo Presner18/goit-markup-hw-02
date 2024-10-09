@@ -124,7 +124,7 @@ button:focus {
 }
 
 .team {
-    background-color: var(--light-slate);
+    background-color:  #F4F4FD;
 }
 
 .team-page {
@@ -134,7 +134,7 @@ button:focus {
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--dark-slate);
+    color: #2e2f42;
 }
 
 .team-title {
@@ -156,7 +156,17 @@ button:focus {
     text-align: center;
     color: var(--slate);
 }
-
+.features-section {
+    background-color: #F4F4FD;  /* Задаємо фон секції */
+}
+.features-title {
+    font-size: 36px;                   /* Розмір шрифта */
+    line-height: 1.11;                 /* Висота між рядками */
+    text-align: center;                /* Центруємо текст */
+    letter-spacing: 0.02em;            /* Міжлітерний інтервал */
+    text-transform: capitalize;        /* Стиль написання "capitalize" */
+    color: #2e2f42;                    /* Колір тексту */
+}
 .features-subtitle {
     font-family: var(--font-family);
     font-size: 20px;
