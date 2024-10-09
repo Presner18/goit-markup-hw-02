@@ -1,9 +1,7 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-    margin: 0;
-    padding: 0;
+    font-family: "Roboto", sans-serif;  /* Визначення шрифту для тексту */
+    color: #434455;                    /* Визначення кольору тексту */
+    background-color: #FFFFFF;          /* Визначення кольору фону */
 }
 ul{
     list-style: none;
@@ -17,9 +15,7 @@ address{
 button{
     font-family: inherit;
 }
-span{
-    color:#2e2f42;1
-}
+
 .header-navigation{
 font-family: var(--second-family);
 font-weight: 700;
