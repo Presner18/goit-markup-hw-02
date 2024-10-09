@@ -61,3 +61,20 @@ body {
     color: #FFFFFF;
     ;
 }
+.menu-list{
+    width: Hug (261px)px;
+    height: Hug (24px)px;
+    top: 24px;
+    left: 347px;
+    gap: 40px;
+    opacity: 0px;    
+}
+.menu-link{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
