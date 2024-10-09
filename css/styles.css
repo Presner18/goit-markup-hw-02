@@ -28,13 +28,18 @@ button {
     font-family: inherit;
 }
 .subtitle{
-    background-color: #2e2f42;
-}
-.subtitle .button{
+font-family: "Roboto", sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+color:  #FFFFFF;;
 
 }
-
-
+.section-subtitle{
+    background-color: #2E2F42;
+}
 .header-navigation {
     font-family: var(--second-family);
     font-weight: 700;
