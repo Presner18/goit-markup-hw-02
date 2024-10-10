@@ -130,12 +130,14 @@ button:focus {
     color: #2e2f42;
 }
 
-.team-title {
-    font-weight: 500;
+.teamtitle {
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: .02em;
-    color: #2E2F42;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42
 }
 
 .team-text {
