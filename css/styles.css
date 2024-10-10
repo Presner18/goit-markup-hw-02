@@ -130,8 +130,7 @@ button:focus {
     color: #2e2f42;
 }
 
-.teamtitle {
-    font-family: "Roboto", sans-serif;
+.team-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -223,7 +222,9 @@ button:focus {
 }
 
 .footer {
-    background-color: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background: #2E2F42;
+
 }
 
 .logo-span {
