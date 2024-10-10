@@ -92,13 +92,10 @@ button:focus {
 }
 
 .address-contact-link {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
+    font-size: 16px;                    /* Розмір шрифту */
+    line-height: 1.5;                   /* Простір між рядками */
+    letter-spacing: 0.02em;             /* Відступи між літерами */
+    color: #434455
 }
 
 .address-contact-link:hover,
