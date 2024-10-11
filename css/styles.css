@@ -3,11 +3,6 @@
     color: #434455;
     background-color: #FFFFFF;
 }
-
-span {
-    color: #2e2f42;
-}
-
 ul {
     list-style: none;
 }
@@ -66,6 +61,9 @@ button:focus {
     color: #4d5ae5;                    
 }
 
+.logo-span{
+    color: #2E2F42;
+}
 
 .header-menu-link{
     font-family: "Roboto", sans-serif;
