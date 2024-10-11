@@ -61,7 +61,7 @@ button:focus {
     color: #4d5ae5;                    
 }
 
-.logo-span{
+.logo-span-header{
     color:#2E2F42;
 }
 
@@ -129,7 +129,7 @@ button:focus {
     color: #434455
 }
 .features-section {
-    background-color: #FFFFFF;  /* Задаємо фон секції */
+    background-color: #FFFFFF;  
 }
 .features-title {
     font-size: 36px;                   /* Розмір шрифта */
@@ -208,5 +208,5 @@ button:focus {
 }
 
 .logo-span {
-    color: #F4F4FD;
+    color: #4FF4FD;
 }
