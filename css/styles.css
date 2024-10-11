@@ -8,8 +8,6 @@ span{
 }
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 ul li {
@@ -32,17 +30,14 @@ button {
     letter-spacing: 0.04em;
     color: #ffffff;
     background: var(--iris);
-    border: none;
-    padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
+    
 }
 
 button:hover,
 button:focus {
     color: #ffffff;
     background: #404BBF;
-    outline: 2px solid #404BBF;
 }
 
 .header {
